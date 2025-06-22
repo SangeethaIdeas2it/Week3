@@ -1,0 +1,14 @@
+Step 1: RED - Write the Failing Test First
+AI Driven Development #60day challenge
+Prompt for your AI assistant:
+I want to build a calculator function that can add two numbers.
+Create a failing test using Jest that:
+- Tests adding 2 + 3 = 5
+- Tests adding negative numbers
+- Tests adding decimal numbers
+- Uses clear, descriptive test names
+
+Step 2: GREEN - Make It Pass
+Prompt for AI:
+Create the simplest add function that will make these tests pass.
+Don't over-engineer it, just make it work.
