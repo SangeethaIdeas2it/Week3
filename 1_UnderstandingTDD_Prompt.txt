@@ -12,3 +12,12 @@ Step 2: GREEN - Make It Pass
 Prompt for AI:
 Create the simplest add function that will make these tests pass.
 Don't over-engineer it, just make it work.
+
+Step 3: REFACTOR - Improve the Code
+Prompt for AI:
+Look at this add function and tests. Can you improve the code quality
+while keeping all tests passing? Consider:
+- Input validation
+- Error handling
+- Code documentation
+
