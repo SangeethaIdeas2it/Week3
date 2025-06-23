@@ -1,0 +1,17 @@
+
+1. Unit Tests
+Generate unit tests for PasswordStrength that:
+- Tests all public methods
+- Covers success and failure scenarios
+- Includes boundary value testing
+- Uses Javascript syntax
+- Follows AAA pattern (Arrange, Act, Assert)
+
+2.Integration Tests
+Prompt template:
+Create integration tests for PasswordStrength that:
+- Tests interaction with external dependencies
+- Includes database operations
+- Tests API endpoints
+- Handles network failures
+- Uses realistic test data

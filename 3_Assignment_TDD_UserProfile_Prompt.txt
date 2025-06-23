@@ -1,0 +1,45 @@
+
+
+
+Steps:
+1. Choose a feature (e.g., shopping cart, user profile, file upload)
+2. Use AI to generate comprehensive failing tests
+3. Implement minimal code to pass tests
+4. Refactor with AI assistance
+5. Add integration tests
+6. Measure coverage and quality
+Success Criteria:
+● 90%+ test coverage
+● All tests pass
+● Code is maintainable and readable
+
+Project and Feature-user profile:
+Step1:
+Write xUnit unit tests for a UserService in C# that includes the following operations:
+- CreateUser(UserDto)
+- GetUserById(Guid userId)
+- UpdateUser(UserDto)
+- DeleteUser(Guid userId)
+
+Use Moq to mock the UserRepository.
+Add edge case tests, like null input, duplicate email, or user not found.
+The code doesn't exist yet — follow Test-Driven Development style.
+
+
+Step2:
+Based on the unit tests above, generate the minimal C# implementation for the UserService that passes all tests.
+Use best practices but avoid overengineering. Use interfaces where needed.
+
+Step3:
+Refactor the UserService implementation for readability, separation of concerns, and performance.
+Avoid breaking existing tests. Show before/after diff if possible.
+
+ 
+ Step4: Prompt: Generate Integration Tests (API + DB)
+Write integration tests using xUnit and TestServer for the UserController in ASP.NET Core Web API.
+Include tests for:
+- Creating a user (POST)
+- Getting a user (GET)
+- Updating a user (PUT)
+- Deleting a user (DELETE)
+Use an in-memory database (InMemory EF Core provider).
